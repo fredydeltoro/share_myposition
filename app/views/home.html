@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+	<link rel="stylesheet" href="/css/home.css">
+{% endblock %}
+
+{% block content%}
+	<div class="login">
+		<h2>Bienvenido</h2>
+		<form method='POST' action="/log-in">
+			<input name="username" type='text'>
+			<button>iniciar sesión</button>
+		</form>
+	</div>
+{% endblock %}
+
+ {% block scripts %}
+
+ {% endblock %}

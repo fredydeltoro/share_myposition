@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+	<link rel="stylesheet" href="/css/ruta.css">
+{% endblock %}
+
+{% block header %}
+	<div class="user">
+		<h2>{{user}}</h2>
+		<a href="/log-out">Salir</a>
+	</div>
+{% endblock %}
+
+{% block content %}
+
+	<div class="encabezado">
+		<h2>Ruta</h2>
+		<p>
+			De
+			<strong>
+				{{user}}
+			</strong>
+			a
+		</p>
+		<a href="/app">Inicio</a>
+	</div>
+ 		<div class='mapcanvas'></div>
+		<ul>
+			<li class="ruta">
+			</li>
+		</ul>
+{% endblock %}
+
+{% block scripts %}
+	<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+	<script src="http://maps.google.com.mx/maps/api/js?sensor=false&language=es" ></script>
+	<script src='/js/ruta_script.js'></script>
+{% endblock %}

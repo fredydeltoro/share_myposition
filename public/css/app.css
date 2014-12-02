@@ -1,0 +1,131 @@
+header .logo {
+  float: left;
+  position: absolute;
+  top: 25%;
+  width: 90px;
+}
+header .logo img {
+  width: 82px;
+}
+header .titular {
+  margin: 0 60px 0 70px;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+header .titular .titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+header .user {
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  text-align: center;
+}
+header .user h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+header .user a {
+  background: #039cc4;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+section .bienvenida {
+  background: #7fa2b8;
+  color: #fff;
+  font-weight: bold;
+  height: 90px;
+  text-align: center;
+}
+section .bienvenida h2 {
+  margin: 5px;
+  padding: 0;
+  font-size: 17px;
+}
+section .bienvenida .lugar {
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+section .bienvenida a {
+  background: #039cc4;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+section ul {
+  text-align: center;
+  height: 200px;
+  line-height: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 30%;
+  top: 32%;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 600px;
+}
+section ul li {
+  background: #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 20px 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 20px 10px 30px rgba(0,0,0,0.2);
+  display: block;
+  text-align: center;
+  height: 200px;
+}
+section ul li a {
+  background: #039cc4;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+section ul li .top {
+  background: #026781;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 50px;
+}
+section ul li .top h2 {
+  color: #fff;
+  padding-top: 15px;
+}
+section ul li .bottom {
+  margin-top: 10px;
+}
+section ul li .bottom p {
+  color: #999;
+  font-size: 13px;
+  padding: 5px;
+}
+section ul li .bottom span {
+  font-weight: bold;
+}
